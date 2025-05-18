@@ -1,0 +1,153 @@
+{
+    "Header": {
+        "Nav": {
+            "Home": "Home",
+            "Products": "Products",
+            "Services": "Services",
+            "AboutUs": "About Us"
+        },
+        "VerticalNav": {
+            "Home": "Home",
+            "Products": "Products",
+            "Services": "Services",
+            "AboutUs": "About Us",
+            "Language": "Language",
+            "Pages": "Pages",
+            "SocialMedia": "Social Media"
+        }
+    },
+    "Footer": {
+        "P": "2024 Al-Assema",
+        "P2": "for Compressed Air Systems", 
+        "DevFooter": "Moatasim"
+    },
+    "MainBtn": {
+        "More": "More"
+    },
+    "HomePage": {
+        "Hero":{
+            "0": "Al-Assema for Compressed Air Systems",
+            "1": "Imported compressors with various capacities",
+            "2": "Imported compressors with various capacities",
+            "3": "New air dryers, Chicago brand, from the Atlas Copco group",
+            "4": "40-bar booster from Chicago",
+            "5": "Line filters of all sizes, Italian and Chinese"
+        },
+        "About": {
+            "Heading": "Al-Assema",
+            "Span": "for Compressed Air Systems",
+            "P": "Al Assema Company is one of the leading companies specializing in compressed air technology, integrated engineering and industrial solutions, and production line equipment.",
+            "Ul": {
+                "0": "Maintenance and overhauls for all types of screw compressors, along with comprehensive maintenance contracts.",
+                "1": "Supply of spare parts for all air compressors available in the Egyptian market.",
+                "2": "Authorized distributors for SOTRAS and mann-filter, providing all types of filters and separator components for equipment.",
+                "3": "Distinguished team of engineers and technicians who have received top-level training and have extensive experience working with major brands.",
+                "4": "We offer imported screw air compressors for all applications."
+            }
+        },
+        "fields":{
+            "H2": "Our Fields",
+            "Spans":{
+            "0": "Constructure",
+            "1": "Government",
+            "2": "Education",
+            "3": "Hotels",
+            "4": "Industry",
+            "5": "Infrastructures",
+            "6": "Oil and Gas",
+            "7": "Local and Global",
+            "8": "Commercial",
+            "9": "Personal",
+            "10": "Hospital",
+            "11": "Airport"
+            }
+        },
+        "Services": {
+            "MainHeading": {
+                "H2": "Al-Assema Compressor Services & Parts",
+                "P": "The services provided by Al-Assema Company in the fields of screw compressors, pneumatics, air conditioning and refrigeration."
+            },
+            "Cards":{
+                "Headings": {
+                    "0": "Screw Compressors",
+                    "1": "Pneumatics",
+                    "2": "Air Conditioning and Refrigeration"
+                },
+                "Uls": {
+                    "0": {
+                        "0": "Distributors of the global company Noitech and the global company mann-filter for all types of separators and oil and air filters.",
+                        "1": "Providing all compressor accessories, including valves, sensors, gauges, and gears.",
+                        "2": "We offer imported air compressors from Atlas Copco, Kaeser, and other trusted brands known for their efficiency and the ease of providing after-sales services.",
+                        "3": "Maintenance and complete overhauls for all types of screw compressors.",
+                        "4": "Providing comprehensive maintenance contracts.",
+                        "5": "Reconditioning worn-out screw compressors electrically and mechanically to restore them to efficient operation.",
+                        "6": "We have a distinguished team of engineers and technicians who have received top-level training and possess extensive experience working with major dealerships."
+                    },
+                    "1": {
+                        "0": "Distributors of leading global brands such as PNEUMAX, HAFNER, and SHAKO.",
+                        "1": "We offer various types of valves (manual and air-actuated) suitable for all industries.",
+                        "2": "We provide stainless steel valves in all sizes.",
+                        "3": "We offer 2/2 solenoids from the Turkish brand Jifacs with Italian coils (air, water, diesel, steam), available with or without a timer.",
+                        "4": "We provide everything needed for the air line, including pistons, valves, service units, hoses, and quick connectors, in German and Italian quality.",
+                        "5": "We have a maintenance workshop for servicing air and hydraulic pistons in all sizes and different shapes."
+                    },
+                    "2": {
+                        "0": "Assembly and manufacturing of chillers in various sizes, along with the supply of imported chillers in excellent condition, complete with all necessary warranties.",
+                        "1": "Maintenance of all chillers available in the Egyptian market, carried out by a team of engineers and technicians specialized in refrigeration and air conditioning.",
+                        "2": "Maintenance and supply of air dryers, as well as maintenance and supply of refrigeration towers and various refrigeration rooms."
+                    }
+                },
+                "More": "More"
+            }
+        },
+        "Products": {
+            "MainHeading": {
+                "H2": "Al-Assema Compressor Products",
+                "P": "Our products guarantee customers achieve sustainable productivity in a wide range of markets, including general engineering, manufacturing and process industries, construction, automotive, pharmaceutical, food and much more."
+            },
+            "ProductsCards": {
+                "1": "Imported compressors with various capacities",
+                "2": "Imported compressors with various capacities",
+                "3": "New air dryers, Chicago brand, from the Atlas Copco group",
+                "4": "40-bar booster from Chicago",
+                "5": "Line filters of all sizes, Italian and Chinese",
+                "6": "Oil separators, Noitech",
+                "7": "Air filters, Noitech and Mann filter",
+                "8": "Oil filters, Noitech and Mann filter",
+                "9": "Spinning on oil separators"
+            }
+        },
+        "Work": {
+            "MainHeading": {
+                "H2": "Al-Assema Projects"
+            }
+        },
+        "Testimonials": {
+            "MainHeading": {
+                "H2": "What Our Clients Say"
+            }
+        },
+        "Contact": {
+            "MainHeading": {
+                "H2": "Contact Us"
+            },
+            "Contacts": {
+                "Services": "Services",
+                "Sales": "Sales"
+            },
+            "Location": {
+                "Heading": "Where we are",
+                "Address": {
+                    "Line1": "El Ordoneya District",
+                    "Line2": "10th Of Ramadan City",
+                    "Line3": "Ash-Sharqiya",
+                    "Line4": "Egypt"
+                }
+            }
+        }
+    },
+    "FloatContact": {
+        "Services": "Services",
+        "Sales": "Sales"
+    }
+  }

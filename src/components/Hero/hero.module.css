@@ -1,0 +1,162 @@
+.hero{
+    min-height: 100vh;
+    z-index: 8;
+    background-image: url("../../../public/imgs/hero-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.hero::after{
+    position: absolute;
+    content: "";
+    left: -50%;
+    top: 50%;
+    height: 300%;
+    width: 100%;
+    background-color: var(--main-color);
+    transform: translateY(-50%) rotateZ(-30deg);
+    z-index: -1;
+}
+.hero::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--logo-color);
+    opacity: 0.8;
+    z-index: -1;
+}
+.hero h1{
+    font-size: 80px;
+    color: var(--logo-color);
+}
+.hero p{
+    color: #fff;
+    width: 50%;
+}
+.hero .img{
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+.hero .img::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -67px;
+    height: calc(100dvh - 67px);
+    width: 100%;
+    background-color: var(--logo-color);
+    opacity: 0.2;
+}
+.hero .img img{
+    width: 100vw;
+    height: calc(100dvh - 140px);
+    object-fit: contain;
+}
+.hero .swiper{
+    position: relative;
+    padding-top: 80px;
+    /* padding-bottom: 80px; */
+    height: 100dvh;
+}
+.hero .swiper p{
+    background-color: var(--logo-color);
+    background-image: var(--main-gradient);
+    position: absolute;
+    width: calc(100% + 20px);
+    left: -10px;
+    bottom: 0;
+    color: #fff;
+    font-family: "Tajawal", sans-serif;
+    direction: rtl;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    z-index: 3;
+}
+.hero.en .swiper p{
+    font-family: "Poppins", sans-serif;
+    direction: ltr;
+}
+.hero .swiper button{
+    /* position: absolute; */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #00000051;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .swiper button:first-of-type{
+    left: 0;
+}
+.hero .swiper button:last-of-type{
+    right: 0;
+}
+.hero .heroPagination{
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.hero .heroPagination span{
+    background-color: var(--logo-color);
+}
+@media (max-width: 992px) {
+    .hero .swiper p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .hero .img{
+        overflow: hidden;
+    }
+    .hero .img img{
+    }
+    .hero .swiper .img img{
+        object-fit: contain;
+        transform: scaleX(1.5) scaleY(1.5);
+        /* height: auto; */
+    }
+    .hero .swiper .first .img{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .hero .swiper .first .img img{
+        transform: scaleX(1) scaleY(1);
+        /* padding-right: 40px;
+        padding-left: 40px; */
+    }
+    .hero .img::before{
+        /* transform: scaleX(25) scaleY(2 5); */
+        z-index: 12;
+    }
+    .hero .swiper button{
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .hero .swiper button:first-of-type{
+        left: 10px;
+    }
+    .hero .swiper button:last-of-type{
+        right: 10px;
+    }
+}

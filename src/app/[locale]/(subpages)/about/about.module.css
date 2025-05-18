@@ -1,0 +1,3 @@
+.about > :first-child > :first-child > :first-child > :last-child{
+    display: none;
+}

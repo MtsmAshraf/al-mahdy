@@ -1,0 +1,51 @@
+.productsGrid .filter{
+    display: flex;
+    border-bottom: 1px solid var(--logo-color);
+    width: fit-content;
+    height: 28px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+.productsGrid.ar .filter{
+}
+.productsGrid .filter input{
+    position: absolute;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+.productsGrid .filter label{
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.productsGrid .filter div:nth-child(1) label{
+    border-radius: 6px 6px 0px 6px;
+}
+.productsGrid .filter div:nth-child(2) label{
+    border-radius: 6px 6px 0px 0px;
+}
+.productsGrid .filter div:nth-child(3) label{
+    border-radius: 6px 6px 6px 0px;
+}
+.productsGrid.ar .filter div:nth-child(1) label{
+    border-radius: 6px 6px 6px 0px;
+    font-size: 18px;
+}
+.productsGrid.ar .filter div:nth-child(2) label{
+    border-radius: 6px 6px 0px 0px;
+    font-size: 18px;
+}
+.productsGrid.ar .filter div:nth-child(3) label{
+    border-radius: 6px 6px 0px 6px;
+    font-size: 18px;
+}
+.productsGrid .filter div:has(input:checked) label{
+    background-color: var(--logo-color);
+    color: #fff;
+}
+@media (max-width: 500px) {
+    .productsGrid .filter{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

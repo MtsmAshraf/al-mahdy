@@ -1,0 +1,22 @@
+
+.mainHeading h2{
+    color: var(--logo-color);
+    color: white;
+    background-color: var(--main-color);
+    font-size: 30px;
+    margin-bottom: 12px;
+    width: fit-content;
+    border-radius: 10px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: var(--main-heading-shadow);
+}
+.mainHeading p{
+    margin-bottom: 16px;
+    color: var(--p-color);
+}
+@media (max-width: 500px) {
+    .mainHeading h2{
+        font-size: 26px;
+    }
+}
