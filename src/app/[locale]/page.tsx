@@ -9,6 +9,7 @@ import Contact from "@/components/Contact/Contact";
 import Loader from "@/components/Loader/Loader";
 import { use, useEffect } from "react";
 import Fields from "@/components/Fields/fields";
+import Why from "@/components/Why/why";
 
 export default async function Home({
   params
@@ -24,6 +25,7 @@ export default async function Home({
       {/* <Loader></Loader> */}
       <Hero lo={locale}></Hero>
       <About lo={locale}></About>
+      <Why lo={locale}></Why>
       <Fields lo={locale}></Fields>
       <Services lo={locale}></Services>
       <Products lo={locale}></Products>

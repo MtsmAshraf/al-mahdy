@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import logo from "../../../public/imgs/logo-removebg.webp"
 import { Link } from '@/i18n/routing'
+import Logo from '../Logo/logo'
 const About = ({
     lo
 }: {
@@ -52,7 +53,7 @@ const About = ({
                 </MainBtn>
             </div>
             <div className={styles.logo}>
-                <Image src={logo} alt='Al-Assema logo'></Image>
+                
             </div>
         </div>
     </section>

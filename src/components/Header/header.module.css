@@ -16,25 +16,8 @@
     align-items: center;
     justify-content: space-between;
 }
-.header > div .logo{
-    width: 140px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    font-family: "Tajawal", sans-serif;
+.header .logo{
     text-decoration: none;
-    justify-content: center;
-}
-.header > div h3{
-    font-size: 30px;
-    background-color: var(--main-color);
-    box-shadow: var(--sec-shadow);
-    color: var(--header-bg);
-    padding: 0px 20px 5px;
-    border-radius: 10px 0px;
-}
-.header > div .logo img{
-    object-fit: contain;
 }
 .header .bars{
     color: var(--text-color);

@@ -11,6 +11,7 @@ import VerticalNav from '../VerticalNav/VerticalNav'
 import { Link } from '@/i18n/routing'
 import LangSwitch from '../Nav/LangSwitch/LangSwitch'
 import { usePathname } from 'next/navigation'
+import Logo from '../Logo/logo'
 
 const Header = ({
     lo
@@ -27,7 +28,7 @@ const Header = ({
     <header className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
         <div className="container">
             <Link className={styles.logo} href={"/"}>
-              <h3>المهدي</h3>
+              <Logo></Logo>
             </Link>
             <Nav lo={lo}></Nav>
             <div className={styles.smCtrl}>

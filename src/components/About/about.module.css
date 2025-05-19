@@ -19,7 +19,14 @@
 }
 .about .aboutHeading h2{
     color: var(--logo-color);
+    background-color: var(--main-color);
+    width: fit-content;
     font-size: 40px;
+    border-radius: 10px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: var(--main-heading-shadow);
+    margin-bottom: 20px;
 }
 .about.ar .aboutHeading h2{
     font-size: 44px;
