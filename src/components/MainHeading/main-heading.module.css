@@ -9,7 +9,7 @@
     border-radius: 10px 0px;
     padding-left: 30px;
     padding-right: 30px;
-    box-shadow: var(--main-heading-shadow);
+    box-shadow: var(--main-heading-shadow), var(--main-shadow);
 }
 .mainHeading p{
     margin-bottom: 16px;

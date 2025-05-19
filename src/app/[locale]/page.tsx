@@ -10,6 +10,7 @@ import Loader from "@/components/Loader/Loader";
 import { use, useEffect } from "react";
 import Fields from "@/components/Fields/fields";
 import Why from "@/components/Why/why";
+import Brands from "@/components/Brands/Brands";
 
 export default async function Home({
   params
@@ -26,6 +27,7 @@ export default async function Home({
       <Hero lo={locale}></Hero>
       <About lo={locale}></About>
       <Why lo={locale}></Why>
+      <Brands lo={locale}></Brands>
       <Fields lo={locale}></Fields>
       <Services lo={locale}></Services>
       <Products lo={locale}></Products>

@@ -1,14 +1,14 @@
 
 .logo{
     width: 140px;
-    height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
     font-family: "Tajawal", sans-serif;
     justify-content: center;
 }
 .logo h3{
-    font-size: 30px;
+    font-size: 24px;
     background-color: var(--main-color);
     box-shadow: var(--sec-shadow);
     color: var(--header-bg);

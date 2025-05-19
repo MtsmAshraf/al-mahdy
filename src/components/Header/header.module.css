@@ -5,6 +5,7 @@
     top: 0;
     background-color: var(--header-bg);
     border-bottom: 1px solid #eee;
+    box-shadow: var(--main-shadow);
     z-index: 14;
 }
 .header.ar{
