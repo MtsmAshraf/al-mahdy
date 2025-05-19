@@ -27,7 +27,7 @@ const Header = ({
     <header className={lo === "ar" ? styles.header + " " + styles.ar : styles.header}>
         <div className="container">
             <Link className={styles.logo} href={"/"}>
-                <Image loading='lazy' src={logo} alt='Al Assema Logo'></Image>
+              <h3>المهدي</h3>
             </Link>
             <Nav lo={lo}></Nav>
             <div className={styles.smCtrl}>
