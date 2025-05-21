@@ -10,10 +10,20 @@
     padding-left: 30px;
     padding-right: 30px;
     box-shadow: var(--main-heading-shadow), var(--main-shadow);
+    text-align: center;
 }
 .mainHeading p{
     margin-bottom: 16px;
     color: var(--p-color);
+}
+@media (max-width: 767px) {
+    .mainHeading{
+        text-align: center;
+    }
+    .mainHeading h2{
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 @media (max-width: 500px) {
     .mainHeading h2{

@@ -26,7 +26,7 @@ export default async function Home({
       <Why lo={locale}></Why>
       <Brands lo={locale}></Brands>
       <Fields lo={locale}></Fields>
-      <Services lo={locale}></Services>
+      {/* <Services lo={locale}></Services> */}
       <Products lo={locale}></Products>
       {/* <Work lo={locale}></Work>
       <Testimonials parentEl={"home"} lo={locale}></Testimonials> */}

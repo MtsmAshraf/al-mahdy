@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import styles from "./products-grid.module.css"
 import ProductCards from './ProductCards/ProductCards'
 const ProductsGrid = ({
@@ -6,23 +7,36 @@ const ProductsGrid = ({
 }: {
     lo: string
 }) => {
+    const [selectedCategory, setSelectedCategory] = useState("")
   return (
     <section className={lo === "ar" ? styles.productsGrid + " " + styles.ar : styles.productsGrid}>
-        {/* <div className={styles.filter}>
+        <div className={styles.filter}>
             <div>
                 <label htmlFor="all">All</label>
-                <input defaultChecked type="radio" id='all' name='grid-filter'/>
+                <input onChange={(e) => setSelectedCategory(e.target.value)} defaultChecked type="radio" id='all' name='grid-filter' value={""}/>
             </div>
             <div>
-                <label htmlFor="cat1">category 1</label>
-                <input type="radio" id='cat1' name='grid-filter'/>
+                <label htmlFor="body">Body</label>
+                <input onChange={(e) => setSelectedCategory(e.target.value)} type="radio" id='body' name='grid-filter' value={"body"}/>
             </div>
             <div>
-                <label htmlFor="cat2">category 2</label>
-                <input type="radio" id='cat2' name='grid-filter'/>
+                <label htmlFor="head">Head</label>
+                <input onChange={(e) => setSelectedCategory(e.target.value)} type="radio" id='head' name='grid-filter' value={"head"}/>
             </div>
-        </div> */}
-        <ProductCards></ProductCards>
+            <div>
+                <label htmlFor="eyes">Eyes</label>
+                <input onChange={(e) => setSelectedCategory(e.target.value)} type="radio" id='eyes' name='grid-filter' value={"eyes"}/>
+            </div>
+            <div>
+                <label htmlFor="feet">Feet</label>
+                <input onChange={(e) => setSelectedCategory(e.target.value)} type="radio" id='feet' name='grid-filter' value={"feet"}/>
+            </div>
+            <div>
+                <label htmlFor="hands">Hands</label>
+                <input onChange={(e) => setSelectedCategory(e.target.value)} type="radio" id='hands' name='grid-filter' value={"hands"}/>
+            </div>
+        </div>
+        <ProductCards category={selectedCategory}></ProductCards>
     </section>
   )
 }

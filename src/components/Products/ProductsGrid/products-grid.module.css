@@ -1,10 +1,16 @@
 .productsGrid .filter{
     display: flex;
+    align-items: center;
     border-bottom: 1px solid var(--logo-color);
     width: fit-content;
     height: 28px;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--main-color);
+    color: #fff;
+    box-shadow: var(--main-shadow), var(--sec-shadow);
 }
 .productsGrid.ar .filter{
 }
@@ -17,31 +23,23 @@
 .productsGrid .filter label{
     padding: 4px 10px;
     cursor: pointer;
-}
-.productsGrid .filter div:nth-child(1) label{
-    border-radius: 6px 6px 0px 6px;
-}
-.productsGrid .filter div:nth-child(2) label{
-    border-radius: 6px 6px 0px 0px;
-}
-.productsGrid .filter div:nth-child(3) label{
-    border-radius: 6px 6px 6px 0px;
+    border-bottom: 3px solid transparent;
+    transition: var(--main-transition);
+    transition-duration: 0.1s;
 }
 .productsGrid.ar .filter div:nth-child(1) label{
-    border-radius: 6px 6px 6px 0px;
     font-size: 18px;
 }
 .productsGrid.ar .filter div:nth-child(2) label{
-    border-radius: 6px 6px 0px 0px;
     font-size: 18px;
 }
 .productsGrid.ar .filter div:nth-child(3) label{
-    border-radius: 6px 6px 0px 6px;
     font-size: 18px;
 }
+.productsGrid .filter label:hover,
 .productsGrid .filter div:has(input:checked) label{
     background-color: var(--logo-color);
-    color: #fff;
+    border-bottom: 3px solid var(--main-color);
 }
 @media (max-width: 500px) {
     .productsGrid .filter{

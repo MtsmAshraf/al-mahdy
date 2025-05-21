@@ -8,8 +8,18 @@
 }
 .contact h1{
     text-align: center;
-    font-size: 40px;
     margin-bottom: 20px;
+    width: fit-content;
+    border-radius: 10px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: var(--main-heading-shadow), var(--main-shadow);
+    text-align: center;
+    background-color: var(--main-color);
+    color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
 }
 .contact > div{
     display: flex;
@@ -113,6 +123,9 @@
     .contact > div:not(:last-child) > div{
         width: 500px;
         max-width: 100%;
+    }
+    .contact h1{
+        margin-bottom: 40px;
     }
 }
 @media (max-width: 600px) {

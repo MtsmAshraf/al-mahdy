@@ -1,13 +1,11 @@
 import { StaticImageData } from "next/image"
-import image1 from "../../../../public/imgs/yellow-one.webp"
-// import image2 from "../../../../public/imgs/yellow-two.webp"
-import image3 from "../../../../public/imgs/red.webp"
-import image4 from "../../../../public/imgs/black.webp"
-import image5 from "../../../../public/imgs/blue.webp"
-import image6 from "../../../../public/imgs/1.webp"
-import image7 from "../../../../public/imgs/2.webp"
-import image8 from "../../../../public/imgs/3.webp"
-import image9 from "../../../../public/imgs/4.webp"
+
+import image1 from "../../../../public/imgs/products/body.jpg"
+import image2 from "../../../../public/imgs/products/helmet.jpg"
+import image3 from "../../../../public/imgs/products/eyes.png"
+import image4 from "../../../../public/imgs/products/gloves.png"
+import image5 from "../../../../public/imgs/products/shoes.jpg"
+
 export type Product = {
     id: string,
     name: string,
@@ -18,57 +16,111 @@ export type Product = {
 const products : Product[] = [
     {
         id: "1",
-        name: "كمبرسورات استيراد بمختلف القدرات",
+        name: "body protection",
         src: image1,
-        category: "category 2"
+        category: "body"
     },
-    // {
-    //     id: "2",
-    //     name: "كمبرسورات استيراد بمختلف القدرات",
-    //     src: image2,
-    //     category: "category 1"
-    // },
+    {
+        id: "2",
+        name: "head protection",
+        src: image2,
+        category: "head"
+    },
     {
         id: "3",
-        name: "مجففات هواء جديدة ماركة Chicago من مجموعة Atlas copco",
-        src: image3,
-        category: "category 1"
+        name: "head protection",
+        src: image2,
+        category: "head"
     },
     {
         id: "4",
-        name: "بوستر 40 بار من Chicago",
-        src: image4,
-        category: "category 2"
+        name: "body protection",
+        src: image1,
+        category: "body"
     },
     {
         id: "5",
-        name: "فلاتر خط جميع المقاسات إيطالى وصينى",
-        src: image5,
-        category: "category 2"
+        name: "body protection",
+        src: image1,
+        category: "body"
     },
     {
         id: "6",
-        name: "فواصل زيت Noitech",
-        src: image6,
-        category: "category 2"
+        name: "body protection",
+        src: image1,
+        category: "body"
     },
     {
         id: "7",
-        name: "فلاتر هواء Noitech , Man filter",
-        src: image7,
-        category: "category 2"
+        name: "body protection",
+        src: image1,
+        category: "body"
     },
     {
         id: "8",
-        name: "فلاتر زيت Mann filter , Noitech",
-        src: image8,
-        category: "category 2"
+        name: "body protection",
+        src: image1,
+        category: "body"
     },
     {
         id: "9",
-        name: "فواصل زيت spinning on",
-        src: image9,
-        category: "category 2"
+        name: "body protection",
+        src: image1,
+        category: "body"
+    },
+    {
+        id: "10",
+        name: "eyes protection",
+        src: image3,
+        category: "eyes"
+    },
+    {
+        id: "11",
+        name: "eyes protection",
+        src: image3,
+        category: "eyes"
+    },
+    {
+        id: "12",
+        name: "eyes protection",
+        src: image3,
+        category: "eyes"
+    },
+    {
+        id: "13",
+        name: "feet protection",
+        src: image5,
+        category: "feet"
+    },
+    {
+        id: "14",
+        name: "feet protection",
+        src: image5,
+        category: "feet"
+    },
+    {
+        id: "15",
+        name: "feet protection",
+        src: image5,
+        category: "feet"
+    },
+    {
+        id: "16",
+        name: "hands protection",
+        src: image4,
+        category: "hands"
+    },
+    {
+        id: "17",
+        name: "hands protection",
+        src: image4,
+        category: "hands"
+    },
+    {
+        id: "18",
+        name: "hands protection",
+        src: image4,
+        category: "hands"
     }
 ]
 
