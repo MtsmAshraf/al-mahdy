@@ -1,7 +1,6 @@
 import styles from "./page.module.css";
 import Hero from "@/components/Hero/Hero";
 import Products from "@/components/Products/Products";
-import Services from "@/components/Services/Services";
 import Contact from "@/components/Contact/Contact";
 // import Work from "@/components/Work/Work";
 // import Testimonials from "@/components/Testimonials/Testimonials";
@@ -24,10 +23,10 @@ export default async function Home({
       <Hero lo={locale}></Hero>
       {/* <About lo={locale}></About> */}
       <Why lo={locale}></Why>
-      <Brands lo={locale}></Brands>
       <Fields lo={locale}></Fields>
-      {/* <Services lo={locale}></Services> */}
+      <Brands lo={locale}></Brands>
       <Products lo={locale}></Products>
+      {/* <Services lo={locale}></Services> */}
       {/* <Work lo={locale}></Work>
       <Testimonials parentEl={"home"} lo={locale}></Testimonials> */}
       <Contact lo={locale}></Contact>

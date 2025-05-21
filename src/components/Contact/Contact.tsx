@@ -3,7 +3,6 @@ import styles from "./contact.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import SocialUl from '../SocialUl/SocialUl'
 import { useTranslations } from 'next-intl'
 const Contact = ({
   lo
@@ -121,11 +120,11 @@ const Contact = ({
             </div>
           </div>
         </div>
-        <div className={styles.socialMedia}>
+        {/* <div className={styles.socialMedia}>
           <div>
             <SocialUl></SocialUl>
           </div>
-        </div>
+        </div> */}
     </section>
   )
 }

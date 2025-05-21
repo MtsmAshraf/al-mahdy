@@ -4,13 +4,13 @@ import ProductCard from './ProductCard/ProductCard'
 import allProducts, { Product } from "../allProducts"
 import Image from 'next/image'
 import { Link } from '@/i18n/routing'
-import { useTranslations } from 'next-intl'
+// import { useTranslations } from 'next-intl'
 const ProductCards = ({
     category
 } : {
     category: string
 }) => {
-    const t = useTranslations("HomePage.Products")
+    // const t = useTranslations("HomePage.Products")
   return (
     <div className={styles.productCards}>
         {
