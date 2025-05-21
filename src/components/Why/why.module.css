@@ -1,6 +1,7 @@
 .why{
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #eee;
 }
 .why.ar{
   font-family: "Tajawal", sans-serif;
@@ -35,7 +36,9 @@
     position: relative;
     padding: 20px;
     border-radius: 6px;
+    background-color: #fff;
     box-shadow: var(--sec-shadow) , var(--main-shadow);
+    isolation: isolate;
     /* background-color: var(--header-bg); */
 }
 .why .card:not(:last-child){

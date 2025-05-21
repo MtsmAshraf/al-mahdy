@@ -4,10 +4,7 @@ import MainBtn from '../MainBtn/MainBtn'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { useTranslations } from 'next-intl'
-import Image from 'next/image'
-import logo from "../../../public/imgs/logo-removebg.webp"
 import { Link } from '@/i18n/routing'
-import Logo from '../Logo/logo'
 const About = ({
     lo
 }: {

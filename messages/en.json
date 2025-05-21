@@ -26,12 +26,8 @@
     },
     "HomePage": {
         "Hero":{
-            "0": "Al-Assema for Compressed Air Systems",
-            "1": "Imported compressors with various capacities",
-            "2": "Imported compressors with various capacities",
-            "3": "New air dryers, Chicago brand, from the Atlas Copco group",
-            "4": "40-bar booster from Chicago",
-            "5": "Line filters of all sizes, Italian and Chinese"
+            "Heading": "Al-Mahdy",
+            "P": "Al-Mahdi Industrial Safety Services Company is a leading provider of comprehensive safety solutions for industrial businesses. We specialize in delivering high-quality safety equipment, fire protection systems, workplace hazard assessments, and training programs designed to ensure the safety and well-being of workers in various industrial sectors. With a commitment to reliability and innovation."
         },
         "About": {
             "Heading": "Al-Mahdy",

@@ -2,8 +2,6 @@
 import React from 'react'
 import styles from "./brands.module.css"
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 // import logo from "../../../public/imgs/logojpg.webp"
 // import sliderProducts from './sliderProducts';
 import { useTranslations } from 'next-intl';
@@ -15,8 +13,8 @@ import "swiper/css/bundle";
 import 'swiper/css/navigation'; 
 import 'swiper/css/pagination'; 
 
-import testImg from "../../../public/imgs/logo-removebg.webp"
 import MainHeading from '../MainHeading/MainHeading';
+import sliderLogos, { SliderLogo } from './sliderProducts';
 const Brands = ({
     lo
 }: {
@@ -32,10 +30,10 @@ const Brands = ({
             <Swiper
                 loop
                 autoplay={{
-                    delay: 2000
+                    delay: 3000
                 }}
-                slidesPerView= {4}
-                spaceBetween={40}
+                slidesPerView= {5}
+                spaceBetween={20}
                 pagination={{
                     clickable: true,
                     el: `.brandsPagination`
@@ -47,52 +45,33 @@ const Brands = ({
                 }}
                 className='mySwiperProdHero'
                 autoHeight={true}
+                breakpoints={{
+                    400: {
+                    slidesPerView: 4,
+                    spaceBetween: 10
+                    },
+                    640: {
+                    slidesPerView: 2,
+                    },
+                    768: {
+                    slidesPerView: 3,
+                    },
+                    1024: {
+                    slidesPerView: 5,
+                    },
+                }}
                 >
-                
-                {/* {
-                    sliderProducts.map((product) => {
+                {
+                    sliderLogos.map((logo: SliderLogo) => {
                         return(
-                            <SwiperSlide key={product.id}>
-                                <div className={styles.img}>
-                                    <Image src={product.src} alt={`${t(`${product.id}`)} image`}></Image>
-                                </div>
-                                <p>
-                                    {t(`${product.id}`)}
-                                </p>
-                            </SwiperSlide>
+                        <SwiperSlide key={logo.id}>
+                            <div className={styles.img}>
+                                <Image src={logo.src} alt={`Brand number ${logo.src} logo`}></Image>
+                            </div>
+                        </SwiperSlide>
                         )
                     })
-                } */}
-                <SwiperSlide >
-                    <div className={styles.img}>
-                        <Image src={testImg} alt={`testImg image`}></Image>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide >
-                    <div className={styles.img}>
-                        <Image src={testImg} alt={`testImg image`}></Image>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide >
-                    <div className={styles.img}>
-                        <Image src={testImg} alt={`testImg image`}></Image>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide >
-                    <div className={styles.img}>
-                        <Image src={testImg} alt={`testImg image`}></Image>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide >
-                    <div className={styles.img}>
-                        <Image src={testImg} alt={`testImg image`}></Image>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide >
-                    <div className={styles.img}>
-                        <Image src={testImg} alt={`testImg image`}></Image>
-                    </div>
-                </SwiperSlide>
+                }
             </Swiper>
             <div className={styles.brandsPagination}>
                 <div className={`brandsPagination`}></div>

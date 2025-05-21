@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from "./nav.module.css"
-import LangSwitch from './LangSwitch/LangSwitch'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/routing'
 import { usePathname } from 'next/navigation'
@@ -28,7 +27,7 @@ const Nav = ({
                 <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'/about'}>{t("Nav.AboutUs")}</Link>
             </li>
         </ul>
-        <LangSwitch lo={lo}></LangSwitch>
+        {/* <LangSwitch lo={lo}></LangSwitch> */}
     </nav>
   )
 }

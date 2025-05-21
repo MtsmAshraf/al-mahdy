@@ -6,6 +6,7 @@
     background-color: var(--header-bg);
     border-bottom: 1px solid #eee;
     box-shadow: var(--main-shadow);
+    backdrop-filter: blur(10px);
     z-index: 14;
 }
 .header.ar{

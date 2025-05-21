@@ -1,4 +1,3 @@
-import About from "@/components/About/About";
 import styles from "./page.module.css";
 import Hero from "@/components/Hero/Hero";
 import Products from "@/components/Products/Products";
@@ -6,8 +5,6 @@ import Services from "@/components/Services/Services";
 import Contact from "@/components/Contact/Contact";
 // import Work from "@/components/Work/Work";
 // import Testimonials from "@/components/Testimonials/Testimonials";
-import Loader from "@/components/Loader/Loader";
-import { use, useEffect } from "react";
 import Fields from "@/components/Fields/fields";
 import Why from "@/components/Why/why";
 import Brands from "@/components/Brands/Brands";
@@ -25,7 +22,7 @@ export default async function Home({
     <div className={styles.page}>
       {/* <Loader></Loader> */}
       <Hero lo={locale}></Hero>
-      <About lo={locale}></About>
+      {/* <About lo={locale}></About> */}
       <Why lo={locale}></Why>
       <Brands lo={locale}></Brands>
       <Fields lo={locale}></Fields>

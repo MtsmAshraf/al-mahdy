@@ -1,3 +1,0 @@
-.services > :first-child> :first-child> :nth-child(2) > * > :last-child{
-    display: none;
-}
