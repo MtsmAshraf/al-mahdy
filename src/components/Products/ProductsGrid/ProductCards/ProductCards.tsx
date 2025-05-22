@@ -18,7 +18,7 @@ const ProductCards = ({
                 if(!category){
                     return(
                         <ProductCard key={product.id}>
-                            <Link href={"/products"} className={styles.productCard}>
+                            <Link href={"/products"} className={parseInt(product.id) % 2 !== 0 ? styles.odd + " " + styles.productCard : styles.productCard}>
                                 <div className={styles.cardImg}>
                                     <Image src={product.src} alt='Product Image'></Image>
                                 </div>
