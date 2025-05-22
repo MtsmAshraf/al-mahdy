@@ -84,6 +84,9 @@
     .productsGrid .filter label{
         width: 60px;
     }
+    .productsGrid .filter > div:first-child label{
+        width: 40px;
+    }
     .productsGrid .filter label span{
         font-size: 12px;
     }
