@@ -18,13 +18,13 @@ const Nav = ({
                 <Link className={pathname === `/${lo}` ? styles.active : ""} href={'/'}>{t("Nav.Home")}</Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/products` ? styles.active : ""} href={'/products'}>{t("Nav.Products")}</Link>
+                <Link className={pathname === `/${lo}/products` ? styles.active : ""} href={'#products'}>{t("Nav.Products")}</Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>{t("Nav.Services")}</Link>
+                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'#manufacturing'}>{t("Nav.Manufacturing")}</Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'/about'}>{t("Nav.AboutUs")}</Link>
+                <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'#contact'}>{t("Nav.ContactUs")}</Link>
             </li>
         </ul>
         {/* <LangSwitch lo={lo}></LangSwitch> */}

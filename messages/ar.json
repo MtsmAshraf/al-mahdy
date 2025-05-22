@@ -3,14 +3,14 @@
         "Nav": {
             "Home": "الرئيسية",
             "Products": "منتجاتنا",
-            "Services": "خدماتنا",
-            "AboutUs": "عنا"
+            "Manufacturing": "التصنيع",
+            "ContactUs": "اتصل بنا"
         },
         "VerticalNav": {
             "Home": "الرئيسية",
             "Products": "منتجاتنا",
-            "Services": "خدماتنا",
-            "AboutUs": "عنا",
+            "Manufacturing": "التصنيع",
+            "ContactUs": "اتصل بنا",
             "Language": "اللغة",
             "Pages": "الصفحات",
             "SocialMedia": "التواصل الاجتماعي"

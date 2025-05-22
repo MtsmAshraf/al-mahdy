@@ -10,7 +10,7 @@ const Products = ({
 }) => {
   const t = useTranslations("HomePage")
   return (
-    <section className={lo === "ar" ? styles.products + " " + styles.ar : styles.products}>
+    <section id='products' className={lo === "ar" ? styles.products + " " + styles.ar : styles.products}>
         <div className="container">
             <MainHeading>
                 <h2>

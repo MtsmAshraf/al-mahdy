@@ -11,7 +11,7 @@ const Contact = ({
 }) => {
   const t = useTranslations("HomePage")
   return (
-    <section className={lo === "ar" ? styles.contact + " " + styles.ar : styles.contact}>
+    <section id='contact' className={lo === "ar" ? styles.contact + " " + styles.ar : styles.contact}>
         <h1>
           {t("Contact.MainHeading.H2")}
         </h1>

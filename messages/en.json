@@ -3,14 +3,14 @@
         "Nav": {
             "Home": "Home",
             "Products": "Products",
-            "Services": "Services",
-            "AboutUs": "About Us"
+            "Manufacturing": "Manufacturing",
+            "ContactUs": "Contact Us"
         },
         "VerticalNav": {
             "Home": "Home",
             "Products": "Products",
-            "Services": "Services",
-            "AboutUs": "About Us",
+            "Manufacturing": "Manufacturing",
+            "ContactUs": "Contact Us",
             "Language": "Language",
             "Pages": "Pages",
             "SocialMedia": "Social Media"

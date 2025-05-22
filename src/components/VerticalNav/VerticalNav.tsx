@@ -25,13 +25,13 @@ const VerticalNav = ({
                 <Link className={pathname === `/${lo}` ? styles.active : ""} href={'/'}>{t("VerticalNav.Home")}</Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/products` ? styles.active : ""} href={'/products'}>{t("VerticalNav.Products")}</Link>
+                <Link className={pathname === `/${lo}/products` ? styles.active : ""} href={'#products'}>{t("VerticalNav.Products")}</Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'/services'}>{t("VerticalNav.Services")}</Link>
+                <Link className={pathname === `/${lo}/services` ? styles.active : ""} href={'#manufacturing'}>{t("VerticalNav.Manufacturing")}</Link>
             </li>
             <li>
-                <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'/about'}>{t("VerticalNav.AboutUs")}</Link>
+                <Link className={pathname === `/${lo}/about` ? styles.active : ""} href={'#contact'}>{t("VerticalNav.ContactUs")}</Link>
             </li>
         </ul>
         <h3>{t("VerticalNav.SocialMedia")}</h3>
