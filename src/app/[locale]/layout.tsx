@@ -12,7 +12,7 @@ import FloatContact from "@/components/FloatContact/FloatContact";
 
 export const metadata: Metadata = {
   title: "Al Mahdy",
-  description: "المهدي لأنظمة للأمن الصناعي - Al Mahdy Safety",
+  description: "المهدي لأنظمة للأمن الصناعي - Al Mahdy Safety for Industrial Safety Services",
   icons: icon.src,
 };
 
