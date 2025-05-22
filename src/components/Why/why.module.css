@@ -44,9 +44,6 @@
 .why .card:not(:last-child){
     border-bottom: 1px solid var(--main-color);
 }
-.why .card:hover{
-    box-shadow: var(--sec-shadow);
-}
 .why .card *{
     transition: var(--main-transition);
 }

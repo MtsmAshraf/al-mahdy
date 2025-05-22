@@ -9,6 +9,7 @@ import feet from "../../../../public/imgs/products-icons/feet.svg"
 import eyes from "../../../../public/imgs/products-icons/eyes.svg"
 import helmet from "../../../../public/imgs/products-icons/helmet.svg"
 import hands from "../../../../public/imgs/products-icons/hands.svg"
+import { useTranslations } from 'next-intl'
 
 const ProductsGrid = ({
     lo
@@ -16,6 +17,7 @@ const ProductsGrid = ({
     lo: string
 }) => {
     const [selectedCategory, setSelectedCategory] = useState("")
+    const t = useTranslations("HomePage.Products")
   return (
     <section className={lo === "ar" ? styles.productsGrid + " " + styles.ar : styles.productsGrid}>
         <div className={styles.filter}>
@@ -24,7 +26,7 @@ const ProductsGrid = ({
                     <div className={styles.icon}>
                         <Image src={all} alt='all icon'></Image>
                     </div>
-                    <span>All</span>
+                    <span>{t('Filter.All')}</span>
                 </label>
                 <input onChange={(e) => setSelectedCategory(e.target.value)} defaultChecked type="radio" id='all' name='grid-filter' value={""}/>
             </div>
@@ -33,7 +35,7 @@ const ProductsGrid = ({
                     <div className={styles.icon}>
                         <Image src={body} alt='body icon'></Image>
                     </div>
-                    <span>Body</span>
+                    <span>{t('Filter.Body')}</span>
                 </label>
                 <input onChange={(e) => setSelectedCategory(e.target.value)} type="radio" id='body' name='grid-filter' value={"body"}/>
             </div>
@@ -42,7 +44,7 @@ const ProductsGrid = ({
                     <div className={styles.icon}>
                         <Image src={helmet} alt='helmet icon'></Image>
                     </div>
-                    <span>Head</span>
+                    <span>{t('Filter.Head')}</span>
                 </label>
                 <input onChange={(e) => setSelectedCategory(e.target.value)} type="radio" id='head' name='grid-filter' value={"head"}/>
             </div>
@@ -51,7 +53,7 @@ const ProductsGrid = ({
                     <div className={styles.icon}>
                         <Image src={eyes} alt='eyes icon'></Image>
                     </div>
-                    <span>Eyes</span>
+                    <span>{t('Filter.Eyes')}</span>
                 </label>
                 <input onChange={(e) => setSelectedCategory(e.target.value)} type="radio" id='eyes' name='grid-filter' value={"eyes"}/>
             </div>
@@ -60,7 +62,7 @@ const ProductsGrid = ({
                     <div className={styles.icon}>
                         <Image src={feet} alt='feet icon'></Image>
                     </div>
-                    <span>Feet</span>
+                    <span>{t('Filter.Feet')}</span>
                 </label>
                 <input onChange={(e) => setSelectedCategory(e.target.value)} type="radio" id='feet' name='grid-filter' value={"feet"}/>
             </div>
@@ -69,7 +71,7 @@ const ProductsGrid = ({
                     <div className={styles.icon}>
                         <Image src={hands} alt='hands icon'></Image>
                     </div>
-                    <span>Hands</span>
+                    <span>{t('Filter.Hands')}</span>
                 </label>
                 <input onChange={(e) => setSelectedCategory(e.target.value)} type="radio" id='hands' name='grid-filter' value={"hands"}/>
             </div>

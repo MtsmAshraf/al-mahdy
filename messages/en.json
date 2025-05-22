@@ -82,43 +82,41 @@
                 "H2": "Al-Mahdy Manufacturing",
                 "P": "Al-Mahdy Company offers the manufacturing of uniforms and C-ZAR brand protective helmets, customized according to the client's specifications."
             },
-            "Cards":{
-                "Headings": {
-                    "0": "Screw Compressors",
-                    "1": "Pneumatics",
-                    "2": "Air Conditioning and Refrigeration"
-                },
-                "Uls": {
-                    "0": {
-                        "0": "Distributors of the global company Noitech and the global company mann-filter for all types of separators and oil and air filters.",
-                        "1": "Providing all compressor accessories, including valves, sensors, gauges, and gears.",
-                        "2": "We offer imported air compressors from Atlas Copco, Kaeser, and other trusted brands known for their efficiency and the ease of providing after-sales services.",
-                        "3": "Maintenance and complete overhauls for all types of screw compressors.",
-                        "4": "Providing comprehensive maintenance contracts.",
-                        "5": "Reconditioning worn-out screw compressors electrically and mechanically to restore them to efficient operation.",
-                        "6": "We have a distinguished team of engineers and technicians who have received top-level training and possess extensive experience working with major dealerships."
+            "Parts":{
+                "1": {
+                    "Heading": "Safety Uniforms",
+                    "Uls": {
+                        "0": "Manufacturing Safety Uniforms",
+                        "1": "Customized Uniforms",
+                        "2": "High Quality Material",
+                        "3": "Competitive pricing"
                     },
-                    "1": {
-                        "0": "Distributors of leading global brands such as PNEUMAX, HAFNER, and SHAKO.",
-                        "1": "We offer various types of valves (manual and air-actuated) suitable for all industries.",
-                        "2": "We provide stainless steel valves in all sizes.",
-                        "3": "We offer 2/2 solenoids from the Turkish brand Jifacs with Italian coils (air, water, diesel, steam), available with or without a timer.",
-                        "4": "We provide everything needed for the air line, including pistons, valves, service units, hoses, and quick connectors, in German and Italian quality.",
-                        "5": "We have a maintenance workshop for servicing air and hydraulic pistons in all sizes and different shapes."
-                    },
-                    "2": {
-                        "0": "Assembly and manufacturing of chillers in various sizes, along with the supply of imported chillers in excellent condition, complete with all necessary warranties.",
-                        "1": "Maintenance of all chillers available in the Egyptian market, carried out by a team of engineers and technicians specialized in refrigeration and air conditioning.",
-                        "2": "Maintenance and supply of air dryers, as well as maintenance and supply of refrigeration towers and various refrigeration rooms."
-                    }
+                    "OrderBtn": "Order Now!"
                 },
-                "More": "More"
+                "2": {
+                    "Heading": "Safety Helmets",
+                    "Uls": {
+                        "0": "Manufacturing Safety C-ZAR Helmets",
+                        "1": "Customized Helmets",
+                        "2": "High Quality Material",
+                        "3": "Competitive pricing"
+                    },
+                    "OrderBtn": "Order Now!"
+                }
             }
         },
         "Products": {
             "MainHeading": {
-                "H2": "Al-Assema Compressor Products",
+                "H2": "Al-Mahdy Products",
                 "P": "Our products guarantee customers achieve sustainable productivity in a wide range of markets, including general engineering, manufacturing and process industries, construction, automotive, pharmaceutical, food and much more."
+            },
+            "Filter":{
+                "All": "All",
+                "Body": "Body",
+                "Head": "Head",
+                "Eyes": "Eyes",
+                "Feet": "Feet",
+                "Hands": "Hands"
             },
             "ProductsCards": {
                 "1": "Imported compressors with various capacities",

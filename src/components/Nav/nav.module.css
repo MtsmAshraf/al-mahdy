@@ -13,6 +13,7 @@
     font-size: 14px;
     border: 1px solid var(--main-color);
     box-shadow: var(--main-shadow);
+    padding: 2px 0px;
 }
 .nav.ar .links{
     border: 0;
@@ -26,18 +27,21 @@
     text-decoration: none;
     color: var(--text-color);
     /* color: #fff; */
-    padding: 2px 10px;
+    padding: 3px 10px;
     transition: var(--main-transition);
-    border-top: 3px solid transparent;
-    border-bottom: 3px solid transparent;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+.nav:not(.ar) .links a{
+    letter-spacing: 1px;
 }
 .nav .links a.active,
 .nav .links a:hover{
     background-color: var(--main-color);
     color: #fff;
     box-shadow: var(--main-shadow);
-    border-top: 3px solid var(--main-color);
-    border-bottom: 3px solid var(--logo-color);
+    border-top: 4px solid var(--main-color);
+    border-bottom: 4px solid var(--logo-color);
     /* border-radius: 6px; */
     /* font-weight: normal; */
 }

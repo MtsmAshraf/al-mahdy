@@ -14,7 +14,11 @@
 }
 .mainHeading p{
     margin-bottom: 16px;
+    width: 70%;
+    font-size: 18px;
     color: var(--p-color);
+    letter-spacing: 1px;
+    line-height: 1.4;
 }
 @media (max-width: 767px) {
     .mainHeading{
@@ -23,6 +27,9 @@
     .mainHeading h2{
         margin-right: auto;
         margin-left: auto;
+    }
+    .mainHeading p{
+        width: 100%;
     }
 }
 @media (max-width: 500px) {

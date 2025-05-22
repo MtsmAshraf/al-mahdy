@@ -48,10 +48,14 @@
 .hero h1{
     font-size: 80px;
     color: var(--logo-color);
+    margin-bottom: 20px;
 }
 .hero p{
     color: #fff;
     width: 50%;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 @media (max-width: 1200px) {
     .hero{
