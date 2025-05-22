@@ -3,14 +3,14 @@
     align-items: center;
     border-bottom: 1px solid var(--logo-color);
     width: fit-content;
-    height: 28px;
+    /* height: 28px; */
     /* border-radius: 6px; */
     margin-bottom: 40px;
     margin-right: auto;
     margin-left: auto;
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
+    /* box-shadow: var(--main-shadow); */
     color: #fff;
-    box-shadow: var(--main-shadow), var(--sec-shadow);
 }
 .productsGrid.ar .filter{
 }
@@ -21,9 +21,34 @@
     width: 0;
 }
 .productsGrid .filter label{
-    padding: 4px 10px;
     cursor: pointer;
-    border-bottom: 3px solid transparent;
+    transition: var(--main-transition);
+    transition-duration: 0.1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 70px;
+}
+.productsGrid .filter label .icon{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productsGrid .filter label img{
+    color: var(--logo-color);
+    transition: var(--main-transition);
+    transition-duration: 0.1s;
+    font-size: 20px;
+    height: 40px;
+}
+.productsGrid .filter label span{
+    padding: 5px 10px;
+    background-color: var(--main-color);
+    width: 100%;
+    text-align: center;
+    border-bottom: 4px solid var(--logo-color);
     transition: var(--main-transition);
     transition-duration: 0.1s;
 }
@@ -36,10 +61,14 @@
 .productsGrid.ar .filter div:nth-child(3) label{
     font-size: 18px;
 }
-.productsGrid .filter label:hover,
-.productsGrid .filter div:has(input:checked) label{
+.productsGrid .filter label:hover span,
+.productsGrid .filter div:has(input:checked) label span{
     background-color: var(--logo-color);
-    border-bottom: 3px solid var(--main-color);
+    border-bottom: 4px solid var(--main-color);
+}
+.productsGrid .filter label:hover img,
+.productsGrid .filter div:has(input:checked) label img{
+    height: 55px;    
 }
 @media (max-width: 500px) {
     .productsGrid .filter{
