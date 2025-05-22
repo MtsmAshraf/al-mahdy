@@ -65,20 +65,22 @@
             "1": "Pricing",
             "2": "Experience & Professionalism",
             "3": "Time Frame",
-            "4": "Warranty"
+            "4": "Warranty",
+            "5": "Manufacturing Service"
             },
             "cardPs": {
             "0": "We work at a high level of quality to suit the client's requirements.",
             "1": "We are the best in the market to offer competitive prices by understanding customer budget & their expectations, without compromising the quality standard.",
             "2": "A Special team of professional engineers and technicians Highly experienced with full support with the latest tools and equipments.",
             "3": "We ensure that projects are delivered within the specified timeframe for customers. We're ready to work 24/7 even in the narrowest timeframe. We have shown this in our previous projects.",
-            "4": "The company is committed to comprehensively guaranteeing all its services and missions with a quick response to customer requests."
+            "4": "The company is committed to comprehensively guaranteeing all its services and missions with a quick response to customer requests.",
+            "5": "Al-Mahdy Company offers the manufacturing of uniforms and C-ZAR brand protective helmets, customized according to the client's specifications."
             }
         },
-        "Services": {
+        "Manufacturing": {
             "MainHeading": {
-                "H2": "Al-Assema Compressor Services & Parts",
-                "P": "The services provided by Al-Assema Company in the fields of screw compressors, pneumatics, air conditioning and refrigeration."
+                "H2": "Al-Mahdy Manufacturing",
+                "P": "Al-Mahdy Company offers the manufacturing of uniforms and C-ZAR brand protective helmets, customized according to the client's specifications."
             },
             "Cards":{
                 "Headings": {

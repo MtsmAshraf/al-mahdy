@@ -20,6 +20,7 @@
   --main-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
   --main-heading-shadow: 5px 5px 0px 1px var(--logo-color);
   --sec-shadow: 3px 3px 0px 1px var(--logo-color);
+  --sec-mini-shadow: 1px 1px 0px 1px var(--logo-color);
 }
 ::selection{
   background-color: var(--logo-color);

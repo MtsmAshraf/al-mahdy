@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./why.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAward, faClock, faFaceSmileBeam, faMoneyBills, faRankingStar } from '@fortawesome/free-solid-svg-icons'
+import { faAward, faClock, faFaceSmileBeam, faIndustry, faMoneyBills, faRankingStar } from '@fortawesome/free-solid-svg-icons'
 import { useTranslations } from 'next-intl'
 const Why = ({
     lo
@@ -78,6 +78,19 @@ const Why = ({
                 </div>
                 <p>
                         {t("cardPs.4")}
+                </p>
+            </div>
+            <div className={styles.card}>
+                <div className={styles.heading}>
+                    <span className={styles.icon}>
+                        <FontAwesomeIcon icon={faIndustry} />
+                    </span>
+                    <h3>
+                        {t("cardsHeadings.5")}
+                    </h3>
+                </div>
+                <p>
+                        {t("cardPs.5")}
                 </p>
             </div>
         </div>

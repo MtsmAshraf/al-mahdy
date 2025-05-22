@@ -7,6 +7,7 @@ import Contact from "@/components/Contact/Contact";
 import Fields from "@/components/Fields/fields";
 import Why from "@/components/Why/why";
 import Brands from "@/components/Brands/Brands";
+import Manufacturing from "@/components/Manufacturing/Manufacturing";
 
 export default async function Home({
   params
@@ -23,10 +24,10 @@ export default async function Home({
       <Hero lo={locale}></Hero>
       {/* <About lo={locale}></About> */}
       <Why lo={locale}></Why>
+      <Manufacturing lo={locale}></Manufacturing>
       <Fields lo={locale}></Fields>
       <Brands lo={locale}></Brands>
       <Products lo={locale}></Products>
-      {/* <Services lo={locale}></Services> */}
       {/* <Work lo={locale}></Work>
       <Testimonials parentEl={"home"} lo={locale}></Testimonials> */}
       <Contact lo={locale}></Contact>
