@@ -45,7 +45,7 @@
 }
 .manufacturing .part .text ul li{
     margin-bottom: 5px;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 .manufacturing .part:not(:last-child) .text ul,
 .manufacturing .part:not(:last-child) .text .order{
