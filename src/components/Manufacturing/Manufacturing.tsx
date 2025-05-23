@@ -25,11 +25,11 @@ const Manufacturing = ({
                 </p>
             </MainHeading>
             <div className={styles.part}>
+                <h3>{t("Parts.1.Heading")}</h3>
                 <div className={styles.partImg}>
                     <Image src={uniform} alt='Safety Uniforms'></Image>
                 </div>
                 <div className={styles.text}>
-                    <h3>{t("Parts.1.Heading")}</h3>
                     <ul>
                         <li>{t("Parts.1.Uls.0")}</li>
                         <li>{t("Parts.1.Uls.1")}</li>
@@ -44,11 +44,11 @@ const Manufacturing = ({
                 </div>
             </div>
             <div className={styles.part}>
+                    <h3>{t("Parts.2.Heading")}</h3>
                 <div className={styles.partImg}>
                     <Image src={safteyHelmet} alt='Safety Helmets'></Image>
                 </div>
                 <div className={styles.text}>
-                    <h3>{t("Parts.2.Heading")}</h3>
                     <ul>
                         <li>{t("Parts.2.Uls.0")}</li>
                         <li>{t("Parts.2.Uls.1")}</li>
